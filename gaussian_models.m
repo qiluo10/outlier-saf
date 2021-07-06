@@ -59,8 +59,8 @@ y = b_noise .^2;   % intensity measurements
 tic
         [outs] = med_saf1d(y,  x, Params, A, At); Relerrs=outs.Relerrs;
 %         [outs] = saf1d(y, x, Params, A, At);Relerrs=outs.Relerrs;
-        [Relerrs] = medianTWF(y, x, Params, A, At);
-        [Relerrs] = medianRWF(y, x, Params, A, At);
+%        [Relerrs] = medianTWF(y, x, Params, A, At);
+%        [Relerrs] = medianRWF(y, x, Params, A, At);
 dt = toc;
 
 
