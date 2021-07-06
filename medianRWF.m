@@ -1,5 +1,6 @@
 %% Implementation of the median truncated Wirtinger Flow (median-TWF) algorithm which is adapted from 
-%  TWF by Y. Chen and E. J. Candès.
+%  TWF by Y. Chen and E. J. CandÃ¨s.
+%% The author is Huishuai Zhang.
 
 function [Relerrs] = medianRWF(y, x, Params, A, At)    
 %% Initialization
